@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+   background-image: linear-gradient(to right, #4CAF50 , #C8E6C9); 
+}
+.admin-application {
+    position: relative;
+    margin-top: 1rem;
+	margin-left: auto;
+	margin-right: auto;
+    width: 690px;
+    height: 600px;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+}
+@media (max-width:1000px) {
+    .admin-application {
+        width: 500px;
+    }
+}
+@media (max-width:768px) {
+    .admin-application {
+        width: 300px;
+    }
+}
+@media (max-width:512px) {
+    .admin-application {
+        width: 200px;
+    }
+}

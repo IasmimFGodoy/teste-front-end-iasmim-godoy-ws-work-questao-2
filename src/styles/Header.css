@@ -1,0 +1,38 @@
+*{
+    margin:0;
+    padding: 0;
+}
+.header {
+    background-image: linear-gradient(to bottom, #006400, #50C878);
+    font-size: 18px;
+    width: 690px;
+    
+}
+.header h3 {
+    margin-left: 1rem;
+    color: #FFF
+}
+@media (max-width:1000px) {
+    .header {
+        width: 500px;
+    }
+    .header h3 {
+        font-size: 16px;
+    }
+}
+@media (max-width:768px) {
+    .header {
+        width: 300px;
+    }
+    .header h3 {
+        font-size: 16px;
+    }
+}
+@media (max-width:512px) {
+    .header {
+        width: 200px;
+    }
+    .header h3 {
+        font-size: 16px;
+    }
+}
